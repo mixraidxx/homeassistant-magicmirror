@@ -39,7 +39,6 @@ RUN apk add --no-cache \
   curl \
   wget \
   unzip \
-    && npm i npm@latest -g 
 
 # Copy root filesystem
 COPY rootfs /
